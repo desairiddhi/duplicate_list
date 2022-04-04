@@ -10,6 +10,6 @@ void main(){
     int? size=int.parse(stdin.readLineSync()!);
     array.add(size);
   }
-  final uniqueNumber=array.toSet().toList();
-  print("after remove duplicate number:  \n$uniqueNumber");
+  final Number=array.toSet().toList();
+  print("after remove duplicate number:  \n$Number");
 }
